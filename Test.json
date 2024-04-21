@@ -23,3 +23,84 @@
         }
     }
 }
+
+
+{
+    "countries": [
+      {
+        "id": 1,
+        "name": "United States",
+        "code": "US",
+        "states": [
+          {
+            "id": 101,
+            "name": "California",
+            "cities": [
+              {
+                "id": 1001,
+                "name": "Los Angeles"
+              },
+              {
+                "id": 1002,
+                "name": "San Francisco"
+              },
+              {
+                "id": 1003,
+                "name": "San Diego"
+              }
+            ]
+          },
+          {
+            "id": 102,
+            "name": "New York",
+            "cities": [
+              {
+                "id": 1004,
+                "name": "New York City"
+              },
+              {
+                "id": 1005,
+                "name": "Buffalo"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "United Kingdom",
+        "code": "UK",
+        "states": [
+          {
+            "id": 201,
+            "name": "England",
+            "cities": [
+              {
+                "id": 1006,
+                "name": "London"
+              },
+              {
+                "id": 1007,
+                "name": "Manchester"
+              }
+            ]
+          },
+          {
+            "id": 202,
+            "name": "Scotland",
+            "cities": [
+              {
+                "id": 1008,
+                "name": "Edinburgh"
+              },
+              {
+                "id": 1009,
+                "name": "Glasgow"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
